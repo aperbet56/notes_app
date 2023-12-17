@@ -109,3 +109,19 @@ footer span {
     font-size: 18px;
     font-weight: bold;
 }
+
+/**** Responsive design ****/
+
+@media screen and (max-width: 768px) {
+    .app {
+        justify-content: center;
+        align-items: center;
+    }
+    .note {
+        width: 100%;
+    }
+
+    .btn {
+        width: 100%;
+    }
+}
