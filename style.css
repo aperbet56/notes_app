@@ -1,0 +1,111 @@
+/**** Reset ****/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+}
+
+/**** Style général de la page ****/
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #98ddf8;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header, footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+}
+
+header h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.main__content {
+    flex-grow: 1;
+    margin: 20px;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.info__text {
+    text-align: center;
+    text-transform: uppercase;
+    color: #00008b;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.app {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.note {
+    width: 28%;
+    height: 200px;
+    padding: 20px;
+    border-radius: 15px;
+    resize: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    font-size: 18px;
+    font-family: inherit;
+    color: #00008b;
+    background-color: #ffffff;
+    transition: all 0.3s ease-in-out;
+}
+  
+.note::placeholder {
+    color: #888888;
+    opacity: 0.4;
+}
+  
+.note:hover,
+.note:focus {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    transform: scale(1.03);
+    border: 2px solid #00008b;
+}
+  
+.btn {
+    height: 200px;
+    background-color: rgba(255, 255, 255, 0.47);
+    border-radius: 15px;
+    font-size: 70px;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.302);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+  
+.btn:hover {
+    background-color: rgba(255, 255, 255, 0.75);
+    color: rgba(0, 0, 0, 0.6);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    border: 2px solid #00008b;
+}
+
+footer span {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
