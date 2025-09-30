@@ -1,5 +1,7 @@
 ## NOTES APP
 
+![Design preview for the project](./img/preview.png)
+
 ## Le challenge
 
 Construction d'une notes app. L'utilisateur va pouvoir :
@@ -14,10 +16,10 @@ Le projet est responsive : il s'adapte aux différentes résolution d'écran (de
 
 Lien vers le projet : https://aperbet56.github.io/notes_app/
 
-## Développez avec
+## Projet développé avec
 
 - Utilisation des balises sémantiques HTML5
-- CSS
+- CSS3
 - Flexbox
 - Animations css
 - Page web responsive
